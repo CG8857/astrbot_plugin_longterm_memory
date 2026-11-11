@@ -1,0 +1,13 @@
+name: astrbot_plugin_longterm_memory
+display_name: 长期记忆与用户画像
+desc: 为 OneBot / QQ 官方机器人提供按用户隔离的长期记忆、用户画像、关键词检索、图片理解、每日整理与WebUI。
+short_desc: 按用户长期记忆 + 画像 + 关键词检索 + 每日整理 + WebUI
+version: 1.0.0
+author: TraeCode
+astrbot_version: ">=4.13.0"
+support_platforms:
+  - aiocqhttp
+  - qq_official
+  - qq_official_webhook
+views:
+  - memory
